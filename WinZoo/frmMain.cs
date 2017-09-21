@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinZoo
 {
-    public partial class frmMain : Form
+    public partial class frmZoo : Form
     {
-        public frmMain()
+        public frmZoo()
         {
             InitializeComponent();
         }

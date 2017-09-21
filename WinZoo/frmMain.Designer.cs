@@ -1,6 +1,6 @@
 ﻿namespace WinZoo
 {
-    partial class frmMain
+    partial class frmZoo
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmZoo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "frmZoo";
+            this.Text = "Zoo";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
