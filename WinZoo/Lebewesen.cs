@@ -14,6 +14,7 @@ namespace WinZoo
         public int IntGewicht { get; set; }
         public int IntAlter { get; set; }
         public int IntGroesse { get; set; }
+        public bool HatDurst { get; set; }
 
     }
 }
