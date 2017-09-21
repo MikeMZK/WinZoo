@@ -1,2 +1,10 @@
 C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\bin\Debug\WinZoo.exe.config
 C:\Users\Steffi.20\Desktop\WinZoo\WinZoo\bin\Debug\WinZoo.exe.config
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\bin\Debug\WinZoo.exe
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\bin\Debug\WinZoo.pdb
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.frmZoo.resources
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.Properties.Resources.resources
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csproj.GenerateResource.Cache
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.exe
+C:\Users\Mike\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.pdb

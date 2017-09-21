@@ -16,5 +16,15 @@ namespace WinZoo
         {
             InitializeComponent();
         }
+
+        private void pb_Eingang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pb_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

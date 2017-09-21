@@ -48,18 +48,18 @@
   <ItemGroup>
     <Compile Include="Tiere\Affe.cs" />
     <Compile Include="Tiere\Elefant.cs" />
-    <Compile Include="frmMain.cs">
+    <Compile Include="frmZoo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <Compile Include="frmZoo.Designer.cs">
+      <DependentUpon>frmZoo.cs</DependentUpon>
     </Compile>
     <Compile Include="Lebewesen.cs" />
     <Compile Include="Tiere\Panda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <EmbeddedResource Include="frmZoo.resx">
+      <DependentUpon>frmZoo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -69,6 +69,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -82,6 +83,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unbenannt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door Opened_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door Opened_40px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
