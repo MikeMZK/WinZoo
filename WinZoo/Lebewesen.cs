@@ -8,5 +8,12 @@ namespace WinZoo
 {
     class Lebewesen
     {
+        public bool HatHunger { get; set; }
+        public int IntEnergie { get; set; }
+        public string StrGeschlecht { get; set; }
+        public int IntGewicht { get; set; }
+        public int IntAlter { get; set; }
+        public int IntGroesse { get; set; }
+
     }
 }
