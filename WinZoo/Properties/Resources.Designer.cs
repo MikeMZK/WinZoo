@@ -73,6 +73,16 @@ namespace WinZoo.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Door_Closed_40px {
+            get {
+                object obj = ResourceManager.GetObject("Door Closed_40px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Door_Opened_40px {
             get {
                 object obj = ResourceManager.GetObject("Door Opened_40px", resourceCulture);

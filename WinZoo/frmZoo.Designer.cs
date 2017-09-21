@@ -38,7 +38,7 @@
             // 
             this.pb_Exit.BackColor = System.Drawing.Color.Transparent;
             this.pb_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_Exit.Image = global::WinZoo.Properties.Resources.Door_Opened_40px;
+            this.pb_Exit.Image = global::WinZoo.Properties.Resources.Door_Closed_40px;
             this.pb_Exit.Location = new System.Drawing.Point(456, 258);
             this.pb_Exit.Name = "pb_Exit";
             this.pb_Exit.Size = new System.Drawing.Size(47, 54);
@@ -46,6 +46,8 @@
             this.pb_Exit.TabIndex = 1;
             this.pb_Exit.TabStop = false;
             this.pb_Exit.Click += new System.EventHandler(this.pb_Exit_Click);
+            this.pb_Exit.MouseEnter += new System.EventHandler(this.pb_Exit_MouseEnter);
+            this.pb_Exit.MouseLeave += new System.EventHandler(this.pb_Exit_MouseLeave);
             // 
             // pb_Eingang
             // 
