@@ -54,13 +54,15 @@
             this.pb_Eingang.BackColor = System.Drawing.Color.Transparent;
             this.pb_Eingang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb_Eingang.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_Eingang.Location = new System.Drawing.Point(151, 61);
+            this.pb_Eingang.Location = new System.Drawing.Point(146, 76);
             this.pb_Eingang.Name = "pb_Eingang";
             this.pb_Eingang.Size = new System.Drawing.Size(215, 200);
-            this.pb_Eingang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Eingang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pb_Eingang.TabIndex = 0;
             this.pb_Eingang.TabStop = false;
             this.pb_Eingang.Click += new System.EventHandler(this.pb_Eingang_Click);
+            this.pb_Eingang.MouseEnter += new System.EventHandler(this.pb_Eingang_MouseEnter);
+            this.pb_Eingang.MouseLeave += new System.EventHandler(this.pb_Eingang_MouseLeave);
             // 
             // frmZoo
             // 

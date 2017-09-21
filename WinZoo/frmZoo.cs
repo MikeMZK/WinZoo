@@ -12,7 +12,7 @@ namespace WinZoo
 {
     public partial class frmZoo : Form
     {
-        Image ClosedExitDoor, OpenedExitDoor;
+        Image ClosedExitDoor, OpenedExitDoor, EnterZooShine;
 
         public frmZoo()
         {
@@ -21,11 +21,22 @@ namespace WinZoo
             ClosedExitDoor = Image.FromFile("ClosedExitDoor.png");
             OpenedExitDoor = Image.FromFile("OpenedExitDoor.png");
             pb_Exit.Image = ClosedExitDoor;
+
+            EnterZooShine = Image.FromFile("EnterZooShine.png");
+            pb_Eingang.Image = null;
         }
 
         private void pb_Eingang_Click(object sender, EventArgs e)
         {
 
+        }
+        private void pb_Eingang_MouseEnter(object sender, EventArgs e)
+        {
+            pb_Eingang.Image = EnterZooShine;
+        }
+        private void pb_Eingang_MouseLeave(object sender, EventArgs e)
+        {
+            pb_Eingang.Image = null;
         }
 
         private void pb_Exit_Click(object sender, EventArgs e)
@@ -44,5 +55,7 @@ namespace WinZoo
         {
             pb_Exit.Image = ClosedExitDoor;
         }
+
+
     }
 }
