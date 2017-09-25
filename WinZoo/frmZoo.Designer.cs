@@ -114,7 +114,9 @@
             // pb_Pfeil
             // 
             this.pb_Pfeil.BackColor = System.Drawing.Color.Transparent;
+            this.pb_Pfeil.BackgroundImage = global::WinZoo.Properties.Resources.Pfeil;
             this.pb_Pfeil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_Pfeil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Pfeil.Location = new System.Drawing.Point(0, 0);
             this.pb_Pfeil.Name = "pb_Pfeil";
             this.pb_Pfeil.Size = new System.Drawing.Size(58, 39);

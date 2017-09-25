@@ -34,6 +34,7 @@ namespace WinZoo
             pb_Panda.Enabled = false;
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = false;
+            pb_Pfeil.Visible = false;
             pb_Eingang.BringToFront();
         }
 
@@ -62,8 +63,7 @@ namespace WinZoo
             pb_Panda.Enabled = false;
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
-            pb_Pfeil.Image = Pfeil;
-            pb_Pfeil.BringToFront();
+            pb_Pfeil.Visible = true;
         }
 
         private void pb_Elefanten_MouseEnter(object sender, EventArgs e)
@@ -83,8 +83,7 @@ namespace WinZoo
             pb_Panda.Enabled = false;
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
-            pb_Pfeil.Image = Pfeil;
-            pb_Pfeil.BringToFront();
+            pb_Pfeil.Visible = true;
 
         }
 
@@ -94,6 +93,8 @@ namespace WinZoo
             pb_Affen.Enabled = true;
             pb_Panda.Enabled = true;
             pb_Elefanten.Enabled = true;
+            pb_Pfeil.Visible = false;
+            pb_Pfeil.Enabled = false;
         }
 
         private void pb_Panda_MouseEnter(object sender, EventArgs e)
@@ -113,7 +114,7 @@ namespace WinZoo
             pb_Panda.Enabled = false;
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
-            pb_Pfeil.Image = Pfeil;
+            pb_Pfeil.Visible = true;
         }
 
         private void pb_Affen_MouseEnter(object sender, EventArgs e)
