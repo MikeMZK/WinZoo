@@ -118,19 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Unbenannt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unbenannt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Door Opened_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Door Opened_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Door_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Door_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Door Opened_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Door Opened_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Door_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Door_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Door Opened_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Door Opened_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Unbenannt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Unbenannt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Door Closed_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Door Closed_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackgroundZoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BackgroundZoo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pfeil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pfeil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
