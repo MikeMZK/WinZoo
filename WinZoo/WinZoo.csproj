@@ -99,6 +99,11 @@
   <ItemGroup>
     <None Include="Resources\Door Closed_40px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BackgroundZoo.jpg" />
+    <None Include="bin\Debug\Pfeil.png" />
+    <Content Include="Resources\BackgroundZoo.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -30,8 +30,18 @@
         {
             this.pb_Exit = new System.Windows.Forms.PictureBox();
             this.pb_Eingang = new System.Windows.Forms.PictureBox();
+            this.pb_Affen = new System.Windows.Forms.PictureBox();
+            this.pb_Elefanten = new System.Windows.Forms.PictureBox();
+            this.pb_Panda = new System.Windows.Forms.PictureBox();
+            this.pb_Pfeil = new System.Windows.Forms.PictureBox();
+            this.pb_Gehege = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Eingang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Affen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Elefanten)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Panda)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Pfeil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Gehege)).BeginInit();
             this.SuspendLayout();
             // 
             // pb_Exit
@@ -64,6 +74,73 @@
             this.pb_Eingang.MouseEnter += new System.EventHandler(this.pb_Eingang_MouseEnter);
             this.pb_Eingang.MouseLeave += new System.EventHandler(this.pb_Eingang_MouseLeave);
             // 
+            // pb_Affen
+            // 
+            this.pb_Affen.BackColor = System.Drawing.Color.Transparent;
+            this.pb_Affen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_Affen.Location = new System.Drawing.Point(62, 86);
+            this.pb_Affen.Name = "pb_Affen";
+            this.pb_Affen.Size = new System.Drawing.Size(94, 70);
+            this.pb_Affen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Affen.TabIndex = 2;
+            this.pb_Affen.TabStop = false;
+            this.pb_Affen.Click += new System.EventHandler(this.pb_Affen_Click);
+            this.pb_Affen.MouseEnter += new System.EventHandler(this.pb_Affen_MouseEnter);
+            this.pb_Affen.MouseLeave += new System.EventHandler(this.pb_Affen_MouseLeave);
+            // 
+            // pb_Elefanten
+            // 
+            this.pb_Elefanten.BackColor = System.Drawing.Color.Transparent;
+            this.pb_Elefanten.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_Elefanten.Location = new System.Drawing.Point(249, 24);
+            this.pb_Elefanten.Name = "pb_Elefanten";
+            this.pb_Elefanten.Size = new System.Drawing.Size(140, 69);
+            this.pb_Elefanten.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Elefanten.TabIndex = 3;
+            this.pb_Elefanten.TabStop = false;
+            this.pb_Elefanten.Click += new System.EventHandler(this.pb_Elefanten_Click);
+            this.pb_Elefanten.MouseEnter += new System.EventHandler(this.pb_Elefanten_MouseEnter);
+            this.pb_Elefanten.MouseLeave += new System.EventHandler(this.pb_Elefanten_MouseLeave);
+            // 
+            // pb_Panda
+            // 
+            this.pb_Panda.BackColor = System.Drawing.Color.Transparent;
+            this.pb_Panda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_Panda.Location = new System.Drawing.Point(186, 238);
+            this.pb_Panda.Name = "pb_Panda";
+            this.pb_Panda.Size = new System.Drawing.Size(112, 74);
+            this.pb_Panda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Panda.TabIndex = 4;
+            this.pb_Panda.TabStop = false;
+            this.pb_Panda.Click += new System.EventHandler(this.pb_Panda_Click);
+            this.pb_Panda.MouseEnter += new System.EventHandler(this.pb_Panda_MouseEnter);
+            this.pb_Panda.MouseLeave += new System.EventHandler(this.pb_Panda_MouseLeave);
+            // 
+            // pb_Pfeil
+            // 
+            this.pb_Pfeil.BackColor = System.Drawing.Color.Transparent;
+            this.pb_Pfeil.BackgroundImage = global::WinZoo.Properties.Resources.Pfeil;
+            this.pb_Pfeil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_Pfeil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_Pfeil.Location = new System.Drawing.Point(0, 0);
+            this.pb_Pfeil.Name = "pb_Pfeil";
+            this.pb_Pfeil.Size = new System.Drawing.Size(58, 39);
+            this.pb_Pfeil.TabIndex = 5;
+            this.pb_Pfeil.TabStop = false;
+            this.pb_Pfeil.Click += new System.EventHandler(this.pb_Pfeil_Click);
+            // 
+            // pb_Gehege
+            // 
+            this.pb_Gehege.BackColor = System.Drawing.Color.Transparent;
+            this.pb_Gehege.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.pb_Gehege.Enabled = false;
+            this.pb_Gehege.Location = new System.Drawing.Point(0, 0);
+            this.pb_Gehege.Name = "pb_Gehege";
+            this.pb_Gehege.Size = new System.Drawing.Size(503, 312);
+            this.pb_Gehege.TabIndex = 6;
+            this.pb_Gehege.TabStop = false;
+            this.pb_Gehege.Visible = false;
+            // 
             // frmZoo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -72,6 +149,11 @@
             this.BackgroundImage = global::WinZoo.Properties.Resources.Unbenannt;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(504, 307);
+            this.Controls.Add(this.pb_Gehege);
+            this.Controls.Add(this.pb_Pfeil);
+            this.Controls.Add(this.pb_Panda);
+            this.Controls.Add(this.pb_Elefanten);
+            this.Controls.Add(this.pb_Affen);
             this.Controls.Add(this.pb_Exit);
             this.Controls.Add(this.pb_Eingang);
             this.DoubleBuffered = true;
@@ -81,6 +163,11 @@
             this.TransparencyKey = System.Drawing.Color.Transparent;
             ((System.ComponentModel.ISupportInitialize)(this.pb_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Eingang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Affen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Elefanten)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Panda)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Pfeil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Gehege)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,6 +176,11 @@
 
         private System.Windows.Forms.PictureBox pb_Eingang;
         private System.Windows.Forms.PictureBox pb_Exit;
+        private System.Windows.Forms.PictureBox pb_Affen;
+        private System.Windows.Forms.PictureBox pb_Elefanten;
+        private System.Windows.Forms.PictureBox pb_Panda;
+        private System.Windows.Forms.PictureBox pb_Pfeil;
+        private System.Windows.Forms.PictureBox pb_Gehege;
     }
 }
 
