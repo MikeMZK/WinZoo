@@ -11,16 +11,19 @@ namespace WinZoo
     class Elefant : Lebewesen
     {
         private Image elefant;
+        int intElefantEnergieMax = 5000;
+
 
         public Elefant(PictureBox pbGehege, PictureBox pbElefant) : base(pbGehege, pbElefant)
         {
             elefant = Image.FromFile("elefant.png");
             base.BildSetzen(elefant);
+            IntEnergie = intElefantEnergieMax;
         }
 
         public override string ToString()
         {
-            return "Ich bin ein Elefant!";
+            return "Energie: " + IntEnergie.ToString();
         }
     }
 }

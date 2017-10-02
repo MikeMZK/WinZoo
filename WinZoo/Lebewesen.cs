@@ -20,11 +20,11 @@ namespace WinZoo
         private int letzteLaufRichtung;
 
         public string StrName { get; private set; }
-        public bool HatHunger { get; private set; }
-        public int IntEnergie { get; private set; }
+        public bool HatHunger { get; protected set; }
+        public int IntEnergie { get; protected set; }
         public string StrGeschlecht { get; private set; }
-        public int IntGewicht { get; private set; }
-        public int IntAlter { get; private set; }
+        public int IntGewicht { get; protected   set; }
+        public int IntAlter { get; protected set; }
         public int IntGroesse { get; private set; }
 
         public Lebewesen()
@@ -63,7 +63,7 @@ namespace WinZoo
 
         public void Essen()
         {
-
+            IntEnergie += 100;
         }
 
         private void lauftimer_Tick(object sender, EventArgs e)
@@ -158,6 +158,7 @@ namespace WinZoo
         {
             spielen = true;
             lauftimer.Interval = timerIntverval / 3;
+            IntEnergie -= 200;
         }
 
         public override string ToString()

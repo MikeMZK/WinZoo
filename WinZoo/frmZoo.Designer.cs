@@ -35,6 +35,8 @@
             this.pb_Panda = new System.Windows.Forms.PictureBox();
             this.pb_Pfeil = new System.Windows.Forms.PictureBox();
             this.pb_Gehege = new System.Windows.Forms.PictureBox();
+            this.btnFüttern = new System.Windows.Forms.Button();
+            this.btnSpielen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Eingang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Affen)).BeginInit();
@@ -141,6 +143,26 @@
             this.pb_Gehege.TabStop = false;
             this.pb_Gehege.Visible = false;
             // 
+            // btnFüttern
+            // 
+            this.btnFüttern.Location = new System.Drawing.Point(93, 272);
+            this.btnFüttern.Name = "btnFüttern";
+            this.btnFüttern.Size = new System.Drawing.Size(75, 23);
+            this.btnFüttern.TabIndex = 7;
+            this.btnFüttern.Text = "Füttern";
+            this.btnFüttern.UseVisualStyleBackColor = true;
+            this.btnFüttern.Click += new System.EventHandler(this.btnFüttern_Click);
+            // 
+            // btnSpielen
+            // 
+            this.btnSpielen.Location = new System.Drawing.Point(12, 272);
+            this.btnSpielen.Name = "btnSpielen";
+            this.btnSpielen.Size = new System.Drawing.Size(75, 23);
+            this.btnSpielen.TabIndex = 8;
+            this.btnSpielen.Text = "Spielen";
+            this.btnSpielen.UseVisualStyleBackColor = true;
+            this.btnSpielen.Click += new System.EventHandler(this.btnSpielen_Click);
+            // 
             // frmZoo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,6 +171,8 @@
             this.BackgroundImage = global::WinZoo.Properties.Resources.Unbenannt;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(504, 307);
+            this.Controls.Add(this.btnSpielen);
+            this.Controls.Add(this.btnFüttern);
             this.Controls.Add(this.pb_Gehege);
             this.Controls.Add(this.pb_Pfeil);
             this.Controls.Add(this.pb_Panda);
@@ -181,6 +205,8 @@
         private System.Windows.Forms.PictureBox pb_Panda;
         private System.Windows.Forms.PictureBox pb_Pfeil;
         private System.Windows.Forms.PictureBox pb_Gehege;
+        private System.Windows.Forms.Button btnFüttern;
+        private System.Windows.Forms.Button btnSpielen;
     }
 }
 

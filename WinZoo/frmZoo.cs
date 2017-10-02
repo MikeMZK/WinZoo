@@ -46,6 +46,9 @@ namespace WinZoo
             pb_Pfeil.Enabled = false;
             pb_Pfeil.Visible = false;
             pb_Eingang.BringToFront();
+
+            btnSpielen.Visible = false;
+            btnFüttern.Visible = false;
         }
 
         private void pb_Eingang_Click(object sender, EventArgs e)
@@ -74,6 +77,8 @@ namespace WinZoo
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
             pb_Pfeil.Visible = true;
+            btnSpielen.Visible = true;
+            btnFüttern.Visible = true;
 
             AddTiere(3, 3);
         }
@@ -96,6 +101,8 @@ namespace WinZoo
             pb_Pfeil.Visible = true;
             pb_Gehege.Enabled = true;
             pb_Gehege.Visible = true;
+            btnSpielen.Visible = true;
+            btnFüttern.Visible = true;
 
             AddTiere(5, 1);
         }
@@ -116,9 +123,22 @@ namespace WinZoo
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
             pb_Pfeil.Visible = true;
+            btnSpielen.Visible = true;
+            btnFüttern.Visible = true;
 
             AddTiere(8, 2);
         }
+
+        private void btnSpielen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFüttern_Click(object sender, EventArgs e)
+        {
+           
+        }
+
         private void pb_Affen_MouseEnter(object sender, EventArgs e)
         {
             pb_Affen.Image = Affe;
@@ -176,7 +196,8 @@ namespace WinZoo
                 Tiere.Last().Cursor = Cursors.Hand;
                 Tiere.Last().BringToFront();
                 Tiere.Last().Click += FrmZoo_Click;
-
+                
+                
                 switch (Art)
                 {
                     case 1:

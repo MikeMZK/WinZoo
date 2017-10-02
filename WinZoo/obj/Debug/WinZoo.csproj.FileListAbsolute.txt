@@ -26,3 +26,13 @@ C:\Users\Steffi.20\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csprojResolve
 C:\Users\Steffi.20\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.frmZoo.resources
 C:\Users\Steffi.20\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.Properties.Resources.resources
 C:\Users\Steffi.20\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csproj.GenerateResource.Cache
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\bin\Debug\WinZoo.exe.config
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\bin\Debug\WinZoo.exe
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\bin\Debug\WinZoo.pdb
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csprojResolveAssemblyReference.cache
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.frmZoo.resources
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.Properties.Resources.resources
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csproj.GenerateResource.Cache
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.csproj.CoreCompileInputs.cache
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.exe
+C:\Users\Angelika\Documents\GitHub\WinZoo\WinZoo\obj\Debug\WinZoo.pdb
