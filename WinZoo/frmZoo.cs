@@ -74,6 +74,8 @@ namespace WinZoo
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
             pb_Pfeil.Visible = true;
+
+            AddTiere(3, 3);
         }
         private void pb_Elefanten_MouseEnter(object sender, EventArgs e)
         {
@@ -95,6 +97,7 @@ namespace WinZoo
             pb_Gehege.Enabled = true;
             pb_Gehege.Visible = true;
 
+            AddTiere(5, 1);
         }
         private void pb_Panda_MouseEnter(object sender, EventArgs e)
         {
@@ -113,6 +116,8 @@ namespace WinZoo
             pb_Elefanten.Enabled = false;
             pb_Pfeil.Enabled = true;
             pb_Pfeil.Visible = true;
+
+            AddTiere(8, 2);
         }
         private void pb_Affen_MouseEnter(object sender, EventArgs e)
         {
@@ -133,6 +138,16 @@ namespace WinZoo
             pb_Pfeil.Enabled = false;
             pb_Gehege.Visible = false;
             pb_Gehege.Enabled = false;
+
+            Affen.Clear();
+            Elefanten.Clear();
+            Pandas.Clear();
+
+            foreach (PictureBox Tier in Tiere)
+            {
+                this.Controls.Remove(Tier);
+            }
+            Tiere.Clear();
         }
 
         private void pb_Exit_Click(object sender, EventArgs e)
@@ -160,21 +175,35 @@ namespace WinZoo
                 this.Controls.Add(Tiere.Last());
                 Tiere.Last().Cursor = Cursors.Hand;
                 Tiere.Last().BringToFront();
+                Tiere.Last().Click += FrmZoo_Click;
 
                 switch (Art)
                 {
                     case 1:
-                        //Pandas.Add(new Panda(pb_Gehege, Tiere.Last()));
+                        Pandas.Add(new Panda(pb_Gehege, Tiere.Last()));
+                        Tiere.Last().Tag = Pandas.Last();
                         break;
                     case 2:
-                        //Affen.Add(new Affe(pb_Gehege, Tiere.Last()));
+                        Affen.Add(new Affe(pb_Gehege, Tiere.Last()));
+                        Tiere.Last().Tag = Affen.Last();
                         break;
                     case 3:
-                        //Elefanten.Add(new Elefant(pb_Gehege, Tiere.Last()));
+                        Elefanten.Add(new Elefant(pb_Gehege, Tiere.Last()));
+                        Tiere.Last().Tag = Elefanten.Last();
                         break;
                 }
             }
         }
 
+        private void FrmZoo_Click(object sender, EventArgs e)
+        {
+            foreach (PictureBox tier in Tiere)
+            {
+                if ((PictureBox)sender == tier)
+                {
+                    MessageBox.Show(tier.Tag.ToString());
+                }
+            }
+        }
     }
 }
